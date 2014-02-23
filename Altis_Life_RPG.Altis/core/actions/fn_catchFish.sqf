@@ -11,12 +11,12 @@ _fish = (nearestObjects[getPos player,["Fish_Base_F"],3]) select 0;
 if(!(_fish isKindOf "Fish_Base_F")) exitWith {}; //Not a fishy!
 switch(true) do
 {
-	case ((typeOf _fish) == "Salema_F"): {_type = "Goldstriemen"};
-	case ((typeOf _fish) == "Ornate_random_F") : {_type = "Kofferfische"};
-	case ((typeOf _fish) == "Mackerel_F") : {_type = "Makrelen"};
-	case ((typeOf _fish) == "Tuna_F") : {_type = "Thunfische"};
-	case ((typeOf _fish) == "Mullet_F") : {_type = "Rotbarben"};
-	case ((typeOf _fish) == "Catshark_F") : {_type = "Katzenhaie"};
+		case ((typeOf _x) == "Salema_F"): {_type = "salema"};
+		case ((typeOf _x) == "Ornate_random_F") : {_type = "ornate"};
+		case ((typeOf _x) == "Mackerel_F") : {_type = "mackerel"};
+		case ((typeOf _x) == "Tuna_F") : {_type = "tuna"};
+		case ((typeOf _x) == "Mullet_F") : {_type = "mullet"};
+		case ((typeOf _x) == "Catshark_F") : {_type = "catshark"};
 	default {_type = ""};
 };
 

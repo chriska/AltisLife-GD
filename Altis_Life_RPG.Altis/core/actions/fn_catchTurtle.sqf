@@ -4,6 +4,7 @@
 	
 	Description:
 	Catches a dead turtle?
+	Translated by Starfish 23.02.14
 */
 private["_obj"];
 _obj = cursorTarget;
@@ -13,5 +14,5 @@ if(alive _obj) exitWith {}; //It's alive, don't take it charlie!
 if(([true,"turtle",1] call life_fnc_handleInv)) then
 {
 	deleteVehicle _obj;
-	titleText["You have taken some turtle meat","PLAIN"];
+	titleText["Du hast Schildkrötenfleisch gesammelt.","PLAIN"];
 };

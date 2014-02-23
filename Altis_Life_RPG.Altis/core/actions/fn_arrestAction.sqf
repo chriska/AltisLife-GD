@@ -3,6 +3,7 @@
 	
 	Description:
 	Arrests the targeted person.
+	Translated by Starfish 23.02.14
 */
 private["_unit","_id"];
 _unit = cursorTarget;
@@ -20,4 +21,4 @@ if(isNull _unit) exitWith {}; //Not valid
 if(isNull _unit) exitWith {}; //Not valid
 detach _unit;
 [[_unit,false],"life_fnc_jail",_unit,false] spawn life_fnc_MP;
-[[0,format["%1 was arrested by %2", name _unit, name player]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[0,format["%1 wurde von %2 festgenommen!", name _unit, name player]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;

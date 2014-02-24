@@ -255,25 +255,24 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Luftfahrt",
 				"
-				1. No helicopter can land within city limits without authorization from the highest ranking officer online. (Exceptions being what is listed below.)<br/>
-				Kavala: The hospital helipad (037129) or docks (031128).<br/>
-				Athira: The sports field (138185) or behind the DMV (140188).<br/>
-				Pyrgos: The fields North/East of DMV (170127)<br/>
-				Sofia: Opposite the car shop (258214) or the fields Southeast of the garage (257212)<br/>
-				Small towns: An appropriate location may be chosen. This is to be judged by officers on a case by case basis.<br/><br/>
-				
-				2. Helicopters may not land on roads.<br/>
-				3. Police may temporarily forbid landing at  but it cannot remain closed for a long period of time.<br/>
-				4. Helicopters cannot fly below 150m over the city without authorization.<br/>
-				5. Helicopters cannot hover over the city. Cops may only hover over the city if there is an active police operation going on.<br/><br/>
+				1. Kein Helikopter darf ohne Erlaubnis des ranghöchsten Beamten innerhalb der Stadtgrenzen landen. (Ausnahmen sind die folgenden) <br/>
+				Kavala: Krankenhaus Helipad (037129) oder Hafen (031128).<br/>
+				Athira: Sportplatz (138185) hinter DMV (140188).<br/>
+				Pyrgos: Die Felder im Nord-Osten von DMV (170127).<br/>
+				Sofia: Gegenüber dem Autohändler (258214) oder bei den Feldern süd-östlich der Garagen (257212).<br/>
+				Small towns: An einer geeigneten Position. Diese darf von Beamten von Fall zu Fall bewertet werden. <br/><br/>
 
+				2. Helikopter dürfen nicht auf Straßen landen.<br/>
+				3. die Polizei darf Landungen temporär verbieten, jedoch nicht für einen längeren Zeitraum.<br/>
+				4. Helikopter dürfen ohne Erlaubnis nicht unter 150 Meter Höhe über eine Stadt fliegen.<br/>
+				5. Helikopter dürfen nicht über einer stadt schweben. Die Polizei darf das auch nur im Rahmen einer polizeilichen Aktion.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["policerules",
 		[
-			"Illegal Areas", 
+			"Verbotene Gebiete", 
 				"
 				1. Gang areas are not considered illegal. Thus a cop may enter without a raid, but may not restrain or stop anyone inside without probable cause/illegal activity. (Talking to the gang NPC is NOT probable cause/illegal activity.)<br/>
 				2. Do not enter an illegal area unless it is part of a raid. see Raiding/Camping.<br/>

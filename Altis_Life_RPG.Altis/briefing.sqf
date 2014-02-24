@@ -44,13 +44,13 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Exploits", 
 				"
-				These are considered exploits, and you will not be kicked, but banned.<br/><br/>
+				Für die folgenden Exploits wirst du nicht gekickt, sondern direkt gebannt!<br/><br/>
 
-				1. Getting out of jail via any method other than paying bail or escaping via helicopter.<br/>
-				2. Killing yourself to get out of roleplay. Getting out of being tazed, restrained, arrested, jail, etc. If the log shows you got arrested, then you died, you will be banned. Do not pay bail and kill yourself for an easy ride home. Walk you lazy turd.<br/>
-				3. Duping items and/or money. If someone sends you an unobtainable amount of money right at the start of the game, report to an admin IMMEDIATELY and transfer said money to an admin. Do this ASAP or an admin could ban you if they see that much on you without question.<br/>
-				4. Using clearly hacked items. If a hacker comes in and spawns unobtainable items, you could be banned for using said items. Report the items to the admins immediately and stay away from them.<br/>
-				5. Abusing bugs or game mechanics for gain. Is there a replicating gun somewhere? Report it and leave it alone. If an admin catches you abusing the glitch, ban.<br/><br/>
+				1. Auf eine andere Weise als über eine Kaution oder eine Flucht mit dem Helikopter aus dem Gefängnis gelangen.<br/>
+				2. Selbstmord, um dem Roleplay zu entgehen und sich aus Handschellen, Arrest, Gefängnis oder Ähnlichem zu befreien. Wenn die Logs zeigen, dass du verhaftet wurdest und du dann stirbst, wirst du gebannt. Zahle nicht dein Knöllchen und töte dich im Anschluss, um schnell nach Hause zu kommen. Lauf, du faules Stück!<br/>
+				3. Duplizieren von Items und/oder Geld. Sollte dir jemand eine verdächtig hohe Summe an Geld überweisen, berichte dies UMGEHEND einem Admin und transferiere das Geld an diesen. Mach das so schnell wie möglich, oder ein Admin wird dich ohne Nachfrage bannen.<br/>
+				4. Das Benutzen eindeutig gehackter Items. Erstellt ein Hacker Items, die sonst nicht zu beschaffen sind, kannst du für deren Benutzung gebannt werden. Melde die entsprechenden Items umgehend bei einem Admin und halte dich von ihnen fern.<br/>
+				5. Missbrauch von Bugs oder Spielmeachniken. Gibt es eine duplizierbare Waffe? Melde sie einem Admin und lass sie liegen. Wirst du erwischt, endet das mit einem Bann.<br/><br/>
 				"
 		]
 	];
@@ -59,7 +59,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Safe Zones",
 				"
-					If bombing (bombing can be intentionally exploding a vehicle), robbing, or killing occurs around these or in these areas it is punishable by ban.<br/><br/>
+					If bombing (bombing can be intentionally exploding a vehicle), robbing, or killing occurs around these or in these areas it is punishable by ban.	Items on this l<br/><br/>
 					
 					Any vehicle spawn (shop or garage)<br/>
 					Any weapon shop<br/>
@@ -75,62 +75,62 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Bannable Offenses", 
 				"
-				Consider this your one and only warning.<br/><br/>
+				Betrachte das hier als deine einzige und letzte Warnung!<br/><br/>
 				
 				1. Hacking<br/>
 				2. Cheating<br/>
-				3. Exploiting (See 'Exploits')<br/>
-				4. Being kicked 3 or more times.<br/><br/>
+				3. Exploiting (Siehe 'Exploits')<br/>
+				4. 3 mal, oder häufiger gekickt werden.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Cop Interaction", 
+			"Interaktion mit der Polizei", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Civilians can be arrested for looking in cops' backpacks/vehicles. Constantly doing this will result in your removal from the server.<br/>
-				2. Civilians can be arrested for following cops in game in order to give away their position.<br/>
-				3. Civilians or Rebels who take up arms to kill cops in town or elsewhere for no RP reason will be considered RDMing. See RDMing section.<br/>
-				4. Following and or harassing cops for long periods of time will be considered griefing and/or spamming, and will result in your removal from the server.<br/>
-				5. Actively blocking cops from doing their duties can lead to your arrest. Constantly doing this will result in your removal from the server.<br/><br/>
+				1. Zivillisten können festgenommen werden, wenn sie in Rucksack oder Vehikel eines Polizisten schauen. Wiederholte Vergehen dieser Art enden in einem Bann.<br/>
+				2. Zivillisten können festgenommen werden, wenn sie Polizisten verfolgen und ihre Position preisgeben.<br/>
+				3. Zivillisten oder Rebellen, welche ohne Grund (Poleplay) Polizisten töten, werden des Random-Deathmatchings bezichtigt. Siehe RMDing Sektion.<br/>
+				4. Polizisten über längere Zeit zu verfolgen oder zu belästigen, wird als Griefing/Spamming behandelt und in einem Bann enden.<br/>
+				5. Polizisten bewusst daran zu hindern, ihre Pflicht auszuüben kann zu einer Festnahme führen. Wiederholte Vergehen dieser Art enden in einem Bann.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Boats", 
+			"Boote", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Repeatedly pushing boats without permission.<br/>
-				2. Pushing a boat with the intention of hurting or killing someone. This is not RP, it is just a flaw in the mechanics.<br/>
-				3. Purposefully running over swimmers/divers.<br/><br/>
+				1. Wiederholtes Schubsen von Booten ohne Erlaubnis.<br/>
+				2. Ein Boot zu schubsen, in der Absicht, jemanden zu verletzen/töten. Dabei handelt es sich nämlich nicht um RP, sondern um eine Ausnutzung der Spielmechaniken.<br/>
+				3. Mit Absicht Schwimmer oder Taucher zu "überfahren"<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Aviation", 
+			"Luftfahrt", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Purposefully ramming a helicopter into anything. Other helicopters, vehicles, buildings.<br/>
-				2. Flying below 150m over the city constantly. Once is illegal, more than that you risk crashing into the city, thus against server rules.<br/>
-				3. Stealing helicopters without proper warning and significant time for the driver to lock the vehicle. If they land and run away without locking, fine, if they just get out and you get in before they get a chance to lock it, no no.<br/><br/>
+				1. Einen Helikopter mit Absicht in Gebäude, Fahzeuge oder Sonstiges zu rammen.<br/>
+				2. Konstant eine Höhe von 150 Metern in der Stadt zu unterschreiten. Erstens ist das illegal und zweitens riskierst du, das Fahrzeug in der Stadt abstürzen zu lassen, was gegen die Server-Regeln ist.<br/>
+				3. Helikopter zu stehlen, ohne vorherige, deutliche Warnung und entsprechender Zeit für den Fahrer, das Fahrzeug abzuschließen. Wenn er landet und sich entfernt, ohne abzuschließen, ist das in Ordnung. Wenn du versucht, hereinzukommen, nachdem er aussteigt und bevor er die Chance hat abzuschließen, nicht!<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Vehicles", 
+			"Fahrzeuge", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
 				
 				1. Purposefully running people over (VRDM). There are accidents, and then there is going out of your way to run someone over.<br/>
 				2. Purposefully throwing yourself in front of vehicles in order to die/get hurt.<br/>

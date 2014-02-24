@@ -176,29 +176,28 @@ player createDiarySubject ["controls","Steuerung"];
 	];
 	player createDiaryRecord ["serverrules",
 		[
-			"New Life Rule", 
+			"Regeln für Neustart", 
 				"
-				The New Life Rule applies to police and civilians.<br/><br/>
+				Diese Regeln gelten für Polizisten und Zivillisten.<br/><br/>
 				
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 
-				1. If you are killed you must wait 15 minutes before returning to the scene of your death.<br/>
-				2. If you die during roleplay your past crimes are forgotten, but you also cannot seek revenge.<br/>
-				3. If you are RDM'd, it is not a new life.<br/>
-				4. If you manually respawn, it is not a new life.<br/>
-				5. If you purposefully kill yourself to avoid roleplay, it is not a new life.<br/><br/>
+				1. Wenn du getötet wirst, musst du 15 Minuten warten, bevor du zum Ort des Verbrechens zurück kehrst.<br/>
+				2. Wenn du während des Rollenspiels stirbst, sind alle deinen vergangenen Tagen vergessen, allerdings darfst du auch keine Rache nehmen.<br/>
+				3. Wenn du RMD'd wurdest, ist das kein Neustart.<br/>
+				4. Wenn du manuell respawnst, ist das kein Neustart.<br/>
+				5. Wenn du dich selbst umbringst, um dem Rollenspiel zu entgehen, ist das kein Neustart.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"Don't Be A Dick!", 
+			"Sei kein Arsch!", 
 				"
-				If an admin has to tell you that you are being a dick, you are doing dickish things.<br/>
-				Causing others grief, disrupting roleplay, the list goes on.<br/>
-				Just don't be a dick okay?<br/>
-				This rule may be invoked at an admin's discretion.<br/><br/>
+				Wenn ein Admin dir sagen muss, dass du ein Arsch bist, dann weil du arschige Dinge tust.<br/>
+				Zum Beispiel andere Spieler ärgern, das Rollenspiel stören und so weiter.<br/>
+				Sei kein Arsch, ok?<br/><br/>
 				"
 		]
 	];
@@ -238,23 +237,23 @@ player createDiarySubject ["controls","Steuerung"];
 	];
 	player createDiaryRecord ["policerules",
 		[
-			"The Federal Reserve",
+			"Die Zentralbank",
 				"
-				1. The Federal Reserve is illegal for civilians to enter, unless they have been given authorization. If civilians enter without authorization they are to be escorted off-site or arrested if they persist.
-				2. Helicopters flying over the Federal Reserve may be asked to leave and disabled if they refuse.<br/>
-				2. If the Federal Reserve is getting robbed, it is encouraged that all available officers move in to stop it.<br/>
-				3. Nearby officers should immediately head to the Federal Reserve to assist. Petty crimes can be dropped during a robbery.<br/>
-				4. Lethal force on bank robbers may be used if no other alternative is available. Every option to taze and arrest the person should be made first.<br/>
-				5. Police may not fire blindly into the building.<br/>
-				6. The police should evacuate the civilians from the building during a robbery.<br/>
-				7. Any civilian who actively makes an attempt to block the police from entering the building may be treated as an accomplice.<br/>
-				8. Supervisory officers may hire individuals or contract a group of people to work as security guards for the bank. See 'Contracting' section for more information.<br/><br/>
+				1. Die Zentralbank darf nicht von Zivillisten betreten werden, es sei denn, sie sind dafür autorisiert. Wenn Zivillisten ohne Erlaubnis eintreten, sind sie nach draußen zu geleiten, oder bei Widerstand zu verhaften.<br/>
+				2. Helikopter, die über die Zentralbank fliegen, dürfen gebeten werden, zu verschwinden und können außer Gefecht gesetzt werden, wenn diese sich weigern.<br/>
+				3. Wenn die Zentralbank ausgeraubt wird, müssen alle verfügbaren Einsatzkräfte sich dorthin begeben, um den Vorgang zu stoppen.<br/>
+				4. Polizisten, die in der Nähe sind, müssen sich umgehend dorthin begeben und kleinere Verbrechen können hierfür fallen gelassen werden.<br/>
+				5. Gewalt darf gegen Bankräuber eingesetzt werden, wenn es keine andere Alternative gibt. Jede Möglichkeit, die Täter zu tasern, oder festzunehmen, hat Priorität.<br/>
+				6. Die Polizei darf nicht blind in das Gebäude feuern.<br/>
+				7. Die Polizei sollte während eines Überfalls alle Zivillisten aus dem Gebäude und der näheren Umgebung evakuieren.<br/>
+				8. Jeder Zivillist, der die Polizei aktiv daran hindert, das Gebäude zu betreten, kann als Komplize behandelt werden.<br/>
+				9. Diensthohe Beamte dürfen einzelne Individuen oder Gruppen dafür anheuern, als Sicherheitsdienst für die Bank zu arbeiten. Siehe 'Verträge' für mehr Informationen.<br/><br/>
 				"
 		]
 	];
 	player createDiaryRecord ["policerules",
 		[
-			"Aviation",
+			"Luftfahrt",
 				"
 				1. No helicopter can land within city limits without authorization from the highest ranking officer online. (Exceptions being what is listed below.)<br/>
 				Kavala: The hospital helipad (037129) or docks (031128).<br/>

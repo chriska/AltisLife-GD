@@ -1,16 +1,16 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
-player createDiarySubject ["sealteamsloth","Seal Team Sloth"];
+player createDiarySubject ["germandayz","GermanDayZ"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["controls","Controls"];
+player createDiarySubject ["serverrules","Allgemeine Regeln"];
+player createDiarySubject ["policerules","Regeln für Polizei"];
+player createDiarySubject ["safezones","Safe Zones"];
+//player createDiarySubject ["civrules","Regeln für Zivillisten"];
+player createDiarySubject ["illegalitems","Illegale Aktivitäten"];
+//player createDiarySubject ["gangrules","Regeln für Gangs"];
+//player createDiarySubject ["terrorrules","Regeln für Terroristen"];
+player createDiarySubject ["controls","Steuerung"];
 
 /*  Example
 	player createDiaryRecord ["", //Container
@@ -24,9 +24,9 @@ player createDiarySubject ["controls","Controls"];
 */
 	player createDiaryRecord["changelog",
 		[
-			"Official Change Log",
+			"Offizieller Change Log (Englisch)",
 				"
-					The official change log can be found on the BIS forums (search Altis Life RPG)
+					Der offizielle Change Log ist im BIS Forum zu finden (suche nach: Altis Life RPG)
 				"
 		]
 	];
@@ -73,7 +73,7 @@ player createDiarySubject ["controls","Controls"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Bannable Offenses", 
+			"Vergehen, die mit einem Bann geahndet werden.", 
 				"
 				Betrachte das hier als deine einzige und letzte Warnung!<br/><br/>
 				
@@ -89,7 +89,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Interaktion mit der Polizei", 
 				"
-				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
 				1. Zivillisten können festgenommen werden, wenn sie in Rucksack oder Vehikel eines Polizisten schauen. Wiederholte Vergehen dieser Art enden in einem Bann.<br/>
 				2. Zivillisten können festgenommen werden, wenn sie Polizisten verfolgen und ihre Position preisgeben.<br/>
@@ -104,7 +104,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Boote", 
 				"
-				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
 				1. Wiederholtes Schubsen von Booten ohne Erlaubnis.<br/>
 				2. Ein Boot zu schubsen, in der Absicht, jemanden zu verletzen/töten. Dabei handelt es sich nämlich nicht um RP, sondern um eine Ausnutzung der Spielmechaniken.<br/>
@@ -117,7 +117,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Luftfahrt", 
 				"
-				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
 				1. Einen Helikopter mit Absicht in Gebäude, Fahzeuge oder Sonstiges zu rammen.<br/>
 				2. Konstant eine Höhe von 150 Metern in der Stadt zu unterschreiten. Erstens ist das illegal und zweitens riskierst du, das Fahrzeug in der Stadt abstürzen zu lassen, was gegen die Server-Regeln ist.<br/>
@@ -130,29 +130,29 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Fahrzeuge", 
 				"
-				Folgende Punkte können, ganz im Ermessen eines Admins, in einem Kick oder einem Bann enden.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Purposefully running people over (VRDM). There are accidents, and then there is going out of your way to run someone over.<br/>
-				2. Purposefully throwing yourself in front of vehicles in order to die/get hurt.<br/>
-				3. Ramming into other vehicles in order to cause an explosion.<br/>
-				4. Constantly trying to enter vehicles that do not belong to you in order to grief the vehicle owner, and not trying to RP.<br/>
-				5. Stealing a vehicle just to crash it or otherwise destroy it.<br/>
-				6. Purchasing multiple vehicles for the purpose of doing any of the above.<br/>
-				7. The only reason for shooting at a vehicle would be to disable it and/or fire warning shots in a role-play scenario.You are not to deliberately destroy enemies vehicles.<br/><br/>
+				1. Absichtlich andere Spieler überfahren.<br/>
+				2. Sich absichtlich vor ein Fahrzeug schmeißen, in der Absicht, zu sterben oder sich zu verletzen.<br/>
+				3. Andere Fahrzeuge rammen, um eine Explosion zu verzursachen.<br/>
+				4. Permanent versuchen, in ein Fahrzeug einzusteigen, um den Besitzer zu ärgern und nicht, um RP zu betreiben.<br/>
+				5. Ein Fahrzeug stehlen, um es zu zerstören oder zu beschädigen.<br/>
+				6. Mehrere Fahrzeuge kaufen, um einen der oben genannten Punkte durchzuführen.<br/>
+				7. Der einzig legitime Grund, auf ein Fahrzeug zu schießen ist, um es zum Stehen zu bringen und/oder, um Warnschüsse im Zuge eine RP-Szenarios anzugeben. Gegnerische Fahrzeuge einfach so zu zerstören ist verboten.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Communication Rules", 
+			"Regeln für Kommunikation", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Side Chat may not be used to play music or otherwise micspam.<br/>
-				2. Spamming any chat channel will result in your removal.<br/>
-				4. Teamspeak channels are split up into areas for a reason. Cops must be in the cop channels at all times.<br/>
-				5. Civilians cannot be in any cop channels on teamspeak in order to gather information on their location or movements. Civs caught doing this will be removed the channel. Repeat offenders can be kicked or banned from both the game and teamspeak.<br/><br/>
+				1. Kein VOICE oder Ähnliches im Side Chat.<br/>
+				2. Spamming, egal in welchem Chat, wird mit einem Bann bestraft.<br/>
+				4. Teamspeak Channel sind aus gutem Grund aufgeteilt. Polizisten müssen sich zu jeder Zeit in ihren eigenen Channel aufhalten.<br/>
+				5. Zivillisten dürfen nicht in den Teamspeak Channeln für Polizisten sein, um Informationen über deren Bewegungen zu erhalten. Zivilisten, die das versuchen, werden vom Channel entfernt. Wiederholtes Vergehen kann in einem Kick oder einem Bann enden.<br/><br/>
 				"
 		]
 	];
@@ -161,16 +161,16 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Random Deathmatching (RDM)", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Folgende Punkte können, ganz im Ermessen eines Admins, mit einem Kick oder einem Bann enden.<br/><br/>
 				
-				1. Killing anyone without a roleplay cause.<br/>
-				2. Declaring a rebellion is not a cause to kill anyone, even cops.<br/>
-				3. Cops and civilians/rebels can only commence in a shootout if there are reasons relating to a crime.<br/>
-				4. If you are killed in the crossfire of a fight, it is not RDM.<br/>
-				5. Killing someone in an attempt to protect yourself or others is not RDMing.<br/>
-				6. Shooting a player without giving reasonable time to follow demands is considered RDM.<br/><br/>
+				1. Töten ohne RP-Hintergrund.<br/>
+				2. Eine Rebellion auszurufen ist kein Grund jemanden zu töten, nichtmal Polizisten.<br/>
+				3. Polizisten und Zivillisten/Rebellen dürfen nur an einem Schusswechsel teilnehmen, wenn es im Zusammenhang mit einem bestimmten Verbrechen steht.<br/>
+				4. Wenn du im Eifer eines Feuergefechts versehentlich jemanden tötest, ist das kein RDM.<br/>
+				5. Jemaden zu töten, um dich oder andere zu schützen, ist kein RDM.<br/>
+				6. Jemanden zu erschießen, ohne ihm Zeit zu geben, sinnvollen Anforderungen Folge zu leisten, ist RDM.<br/><br/>
 				
-				These are all judged by admins on a case by case basis.<br/><br/>
+				All diese Fälle werden von Admins im einzelnen und im eigenen Ermessen beurteilt.<br/><br/>
 				"
 		]
 	];
@@ -205,43 +205,23 @@ player createDiarySubject ["controls","Controls"];
 	
 	
 	
-// Seal Team Sloth Section
+// GermanDayZ Section
 
-	player createDiaryRecord ["sealteamsloth",
+	player createDiaryRecord ["germandayz",
 		[
 			"Teamspeak",
 				"
-				Seal Team Sloth Teamspeak can be found at:<br/><br/>
-				ts3.sealteamsloth.com:8027<br/><br/>
+				GermanDayZ Teamspeak unter:<br/><br/>
+				ts.germandayz.de<br/><br/>
 				"
 		]
 	];
 	
-	player createDiaryRecord ["sealteamsloth",
+	player createDiaryRecord ["germandayz",
 		[
-			"Website/Forums",
+			"Website/Forum",
 				"
-				www.sealteamsloth.com<br/>
-				This is also where ban appeals will be made.<br/><br/>
-				"
-		]
-	];
-	
-	player createDiaryRecord ["sealteamsloth",
-		[
-			"Wiki",
-				"
-				http://sealteamsloth.wikia.com/<br/><br/>
-				"
-		]
-	];
-	
-	player createDiaryRecord ["sealteamsloth",
-		[
-			"Donations",
-				"
-				Donations keep the server running, anything and everything helps.<br/><br/>
-				sealteamsloth.com/donate<br/><br/>
+				www.germandayz.de<br/><br/>
 				"
 		]
 	];
